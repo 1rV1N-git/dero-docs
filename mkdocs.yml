@@ -21,8 +21,7 @@ theme:
   logo: 'images/logo.png'
   favicon: 'images/fav.png'
   palette:
-    primary: 'blue grey'
-    accent: 'indigo'
+    primary: 'teal'
   language: 'en'
   direction: 'ltr'
   feature:
