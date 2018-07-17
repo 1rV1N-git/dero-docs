@@ -4,18 +4,11 @@
 
 ## Algorithm/ASIC Questions
 
-#### Q: What is Dero doing about ASICs?
 
-   A: DERO is waiting for more details and numbers. The team communicate regularly with a number of public and private pools to monitor their hashrates, and provide support.
-     Most of the miners on the network are legitimate miners, many of the miners we speak with personally. They reach out to the team for up to date information about Dero like anyone else.
+#### Q: Is Dero switching to a new PoW algo and if so, which one? When?
 
-
-#### Q: Is Dero switching to a new PoW algo and if so, which one? when?
-
-   A: The Dero team is evaluating all of its options and will have an update soon. Like its solutions to date, they want everything to be well thought out, and function as intended.
-
-They will provide updates promptly as they become available.
-
+   A: The Dero team has chosen to remain ASIC-friendly and use the cryptonight algo for now, to help ensure chain safety while they prepare for DERO-DAG. It will come out when the developers are confident we are ready to make the switch.
+   
 ## Mining Questions
 
 #### Q: How do I start mining DERO?
