@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-
+**Thanks to --Serena-- for providing some questions and answers!**
 
 ## Algorithm/ASIC Questions
 
