@@ -7,7 +7,7 @@ If this is your first time hearing about DERO, we recommend starting with the [D
 
 ## What is DERO?
 
-DERO is a new blockchain technology written in Golang with a focus on enhanced Privacy and Smart Contracts while maintaining the transparency and security of the blockchain.
+DERO is a new blockchain technology combining enhanced privacy with smart contracts and fast transactions, on a stable and secure network.
 
 The goal is to create a unique state of the art blockchain technology with enhanced reliability, privacy, security, usability, and portability by bringing together some of the best proven technologies like *CryptoNote Protocol* and *Smart Contracts*, thereby allowing for the creation of **Private Smart Contracts**.
 
