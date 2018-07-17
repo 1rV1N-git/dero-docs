@@ -1,14 +1,13 @@
 # Frequently Asked Questions
 
-**Thanks to --Serena-- for providing some questions and answers!**
+
 
 ## Algorithm/ASIC Questions
 
+#### Q: Why is DERO not ASIC resistant?
 
-#### Q: Is Dero switching to a new PoW algo and if so, which one? When?
+   A: There is an arms racing going on between PoW and mining hardware developers. As soon as a new PoW algorithm is released, the developers of mining hardware start to make FPGA prototypes which later turn into ASICs. The big threat hereby is hidden mining, that is someone is using FPGA/ASICs on a network where everyone else has only CPU/GPU available. DERO decided that the time of the developers is best spent developing new features for DERO and not engaging in this arms race. Thats why the PoW algorithm is still Cryptonote.
 
-   A: The Dero team has chosen to remain ASIC-friendly and use the cryptonight algo for now, to help ensure chain safety while they prepare for DERO-DAG. It will come out when the developers are confident we are ready to make the switch.
-   
 ## Mining Questions
 
 #### Q: How do I start mining DERO?
@@ -19,7 +18,7 @@
 
 #### Q: When will the GUI and mobile wallets be ready?
 
-   A: The GUI wallet is scheduled for Q2 2018 so please be patient. The Android/IOS wallet development is also due to start soon.
+   A: The GUI wallet is scheduled for early Q3 2018 so please be patient. The Android/IOS wallet development is also due to start soon.
 
 There is no scheduled date or rough ETA at this time beyond what has been posted here.
 
