@@ -22,7 +22,7 @@ theme:
   favicon: 'images/fav.png'
   palette:
     primary: 'blue grey'
-    accent: 'teal'
+    accent: 'indigo'
   language: 'en'
   direction: 'ltr'
   feature:
