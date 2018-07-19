@@ -4,41 +4,62 @@ The main purpose of a paper wallet is to quickly create a wallet to start receiv
 
 **You will not be able to spend or send your funds to other people until you set up a CLI wallet on an internet-connected machine**
 
-## Making a Paper Wallet
+You can view a guide on how to make a wallet [here](Using-the-CLI-Wallet)
 
-### 1. Downloading the Wallet
+There are two options for a paper wallet.
 
-Binary distributions can be found [here](http://seeds.dero.io/alpha).
+## Making A Paper Wallet on an Internet-Connected Machine
 
-Select the appropriate file for the target platform (Windows, Linux, Solaris, OpenBSD, NetBSD, FreeBSD, Darwin, DragonFly).
+Go to [this link](https://dero-paper.netlify.com) and follow [these steps.](#generating-the-wallet)
 
-Windows binaries are provided in the `.zip` format, while the `.tar.gz` format is provided for the rest.
+## Making a Paper Wallet on an Air-Gapped Machine
 
-### 2. Installing
+Go to [this GitHub repository](https://github.com/soja811/dero-paper-wallet)(on a machine connected to the internet).
 
-Extract the `.zip` or `.tar.gz` file to a directory of your choice
+To use it, follow these steps:
 
-In the running CLI wallet client,
+**Windows**
+  - Click on `Clone or Download`
 
-- type `2` to generate a new wallet.
-- Enter a filename for the wallet(for example, `dero`)
-- Enter a password to encrypt the wallet file with, and confirm it
-- Enter the number corresponding to what language you'd like your 25 word mnemonic seed to be in(for most of you, it will be `0` - English)
+  - Click on `Download ZIP`
 
-### 3. Backing up the Wallet
+  - Extract the `.zip` file to a directory of your choice (say, `C:/paper`)
 
-- type `2`
-- enter your password
-- the 25 word mnemonic seed will appear below the paragraph in green
-- remove `←[31m` from the beginning and `←[37m` from the ending
-- **safely save and store these words**
+  - Copy/paste the files through a flash drive to your air-gapped machine.
 
-![25wordseed](images/dero25.png)
+  - Open the folder where you pasted the files, (say `C:/paper`) and double click on `index.html`
 
-**DO NOT SHARE IT WITH ANYONE**. **Anyone who has these can *access your funds* and has *complete control* over your wallet.**
+  - Follow [these steps.](#generating-the-wallet)
 
+**Linux**
+  - Open the terminal
 
+  -  Install git if it's not already installed (`apt-install git`)
 
-To make it secure, we recommend **formatting the whole disk and re-installing your OS**, if it is a fresh install.
+  - Type, `git clone https://github.com/soja811/dero-paper-wallet.git`and press enter
 
-Else, **permanently delete your folder and everything inside it**
+  - Then enter `cd dero-paper-wallet`
+
+  - After doing so, enter `index.html`
+
+  - A page should open up in your browser
+
+  - Follow [these steps.](#generating-the-wallet)
+
+### Generating the Wallet
+
+- Click on `Generate a Wallet`
+
+- Mash your keyboard and start entering a bunch of random letters, numbers and signs in the field. Make sure you toggle on Caps Lock repeatedly! (Don't go too crazy - otherwise you might end up shutting down your PC!)
+
+- After you're done mashing your keyboard, press `Generate Wallet`
+
+- The letters and numbers in the green box, starting with `dERo`, is your public address. You can share it freely. 
+
+- Save the `Seed Phrase`, the 25 words in the red box, safely.  
+**DO NOT SHARE IT WITH ANYONE**.  
+**Anyone who has access to this can *access your funds* and has *complete control* over your wallet.**
+
+- Save the `Spend Key` and the `View Key`, the two very long strings of (seemingly) random letters and numbers, safely.  
+**DO NOT SHARE IT WITH ANYONE**.  
+**Anyone who has access to this can *access your funds* and has *complete control* over your wallet.**
